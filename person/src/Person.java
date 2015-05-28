@@ -17,6 +17,9 @@ public class Person {
 			 SetPhonenumber(phonenumber);
 			 Setaddress(address);
 		}
+			public Person() {
+		// TODO Auto-generated constructor stub
+	}
 			public String GetName()
 			{
 				return m_name;
