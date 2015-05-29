@@ -7,9 +7,10 @@ public class CalculateArea {
 		int radius =4, length =5, breadth =6;
 		double circlearea = CalculateCircleArea(radius);
 		double rectanglearea = CalculateRectangleArea(length,breadth);
+		
 		System.out.println("the area of the circle is:" + circlearea);
 		System.out.println("the area of the rectangle is:" + rectanglearea);
-		} 
+	}
 	
 	static double CalculateCircleArea (int radius)
 	{
