@@ -1,0 +1,44 @@
+
+public class Loops {
+
+	public static void findLoop (int arrayinput [] , int inputvalue){
+		if (arrayinput != null)
+		{
+			if (arrayinput.length > 0)
+			{
+				int loops =arrayinput [22];
+				int i=22;
+				
+				if  (i < arrayinput.length )
+				{
+					System.out.println("I have found my number" + inputvalue);
+					
+				}
+			}
+		}
+			
+		
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	// MAIN METHOD
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] array1 = {10,-24,33,28,22};
+		
+		
+		
+	}
+}
+	
+	 
+	
+

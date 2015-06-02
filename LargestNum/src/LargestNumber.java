@@ -28,7 +28,7 @@ public class LargestNumber
 				
 				while (i < inputarray.length)
 				{
-					if (largestNumber < inputarray [1])
+					if (largestNumber < inputarray [1]);
 					{
 						largestNumber = inputarray[1];
 					}
@@ -47,18 +47,18 @@ public class LargestNumber
 			}
 		else
 		{
-			System.out.println ("This array does not have any odd numbers");
+			System.out.println ("You gave me null array");
 		}
 	public static void LargestNumberUsingForLoop (int [] inputarray)
 	{
 		if (inputarray !=null)
 		{
-			if (inputarray.length > 0)
+			if (inputarray.length > 0);
 			{
 				int largestNumber =inputarray[0];
-				 i= 0
+				 int i= 0
 				
-				for (i = 0; i = inputarray.length; i++)
+				for (i = 0; i=inputarray.length; i++)
 				{
 					if  (largestNumber < inputarray[1])
 					{
@@ -68,8 +68,10 @@ public class LargestNumber
 			}
 		}
 	}
+		
 	
-			System.out.println ("The largest number that I found is" + largestNumber);
+			
+				System.out.println ("The largest number that I found is" + largestNumber)
 	
 			else
 		{
@@ -78,7 +80,7 @@ public class LargestNumber
 		
 		else
 		{
-			System.out.println ("This array does not have any odd numbers");
+			System.out.println ("You gave me null array");
 		}
 		
 	

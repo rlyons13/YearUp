@@ -1,0 +1,32 @@
+
+public class Loops {
+
+	public static void findLoop (int arrayinput [] , int inputvalue){
+		if (arrayinput != null){
+			if (arrayinput.length > 0){
+				
+			}
+		}
+			
+		
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	// MAIN METHOD
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] array1 = {10,-24,33,28,22};	
+	}
+}
+	
+	 
+	
+
