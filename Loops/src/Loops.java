@@ -1,15 +1,13 @@
 
 public class Loops {
 
-	public static void findLoop (int arrayinput [] , int inputvalue){
-		if (arrayinput != null)
+
+	public static void loopFind  (int array [] , int inputvalue){
+		if (array != null)
 		{
-			if (arrayinput.length > 0)
-			{
-				int findLoop =arrayinput [22];
-				int i=22;
-				
-				for  (i=22; i < arrayinput.length; i=22; )
+			if (array.length > 0)
+			{	
+				for(int i = 22; i < array.length; i++ )
 				{
 					System.out.println("I have found my number" + inputvalue);
 					
@@ -22,15 +20,13 @@ public class Loops {
 		
 	}
 	
-	public static void findLoop (int arrayinput [] , int inputvalue){
-		if (arrayinput != null)
+	public static void findLoop (int array [] , int inputvalue){
+		if (array != null)
 		{
-			if (arrayinput.length > 0)
+			if (array.length > 0)
 			{
-				int findLoop =arrayinput [22];
-				int i=22;
 				
-				while (i=22; i < arrayinput.length; i=22; )
+				while (i=22; i < array.length; i++ )
 					
 					System.out.println("I have found my number" + inputvalue);
 				
@@ -52,7 +48,7 @@ public class Loops {
 		// TODO Auto-generated method stub
 		
 		int [] array1 = {10,-24,33,28,22};
-		
+		int inputvalue = 22;
 		
 		
 	}

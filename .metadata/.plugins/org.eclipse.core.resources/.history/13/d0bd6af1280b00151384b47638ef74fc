@@ -1,0 +1,55 @@
+
+public class ReverseString {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		String originalString = ("hello");
+		String reversedString = (originalString);
+		System.out.println(reversedString);
+		
+	}
+
+	public static String ReverseInPlace (String originalString)
+	{
+		String reversedString =null;
+		
+		if (originalString != null)
+		{
+			char [] originalStringCharacters = originalString.toCharArray();
+			
+			for (int i = 0, j = originalStringCharacters.length = i; i < originalString.length();)
+			{
+				char temp = originalStringCharacters[j];
+				originalStringCharacters [j] =originalStringCharacters [i];
+				originalStringCharacters[i] =temp;
+				
+			}
+			
+			reversedString = new String(originalStringCharacters);
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	return reverseString
