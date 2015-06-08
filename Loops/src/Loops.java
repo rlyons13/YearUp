@@ -20,17 +20,22 @@ public class Loops {
 		
 	}
 	
-	public static void findLoop (int array [] , int inputvalue){
+	public static void findLoop (int array [] , int inputValue){
 		if (array != null)
 		{
 			if (array.length > 0)
 			{
 				
-				while (i=22; i < array.length; i++ )
+				for (int i=0; i < array.length; i++ ) 
+				{
 					
-					System.out.println("I have found my number" + inputvalue);
-				
-					break;
+					if (array[i] == inputValue) 
+					{
+						System.out.println("I have found my number" + array[i]);
+					
+						break;
+					}
+				}
 			}
 		}
 	}
