@@ -5,8 +5,9 @@ public class Account
 	private String m_accountName;
 	private int m_customerId = -1;
 	double m_amount = 0.0;
+	
 
-	public Account(int accountId, String accountName, int customerId)
+	public Account(int accountId, String accountName, int customerId, double amount)
 	{
 		SetAccountId(accountId);
 		SetAccountName(accountName);
@@ -23,10 +24,15 @@ public class Account
 	public int GetAccountId()
 	{ 
 		return m_accountId;
-			
 	}
-	
-	
+	public  double GetAmount()
+	{
+		return m_amount;
+	}
+	private void SetAmount(double amount)
+	{
+		m_amount = amount;
+	}
 	private  void SetAccountId(int accountId)
 	{
 		m_accountId = accountId;
@@ -60,8 +66,9 @@ public class Account
 	}
 
 
-	private void UpdateAmount(double newAmount) {
+	private void UpdateAmount(double newAmount) 
+	{
 		// TODO Auto-generated method stub
-		
+		SetAmount(newAmount);
 	}
 }
