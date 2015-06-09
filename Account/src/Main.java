@@ -9,13 +9,14 @@ public class Main {
 		savingsAccount.UpdateAmountSecurely (0, "thief");
 		savingsAccount.UpdateAmountSecurely (0, null);
 		savingsAccount.UpdateAmountSecurely (0, "null");
-		savingsAccount.UpdateAmountSecurely (0,"")
+		savingsAccount.UpdateAmountSecurely (0,"");
 		{
 		
 		savingsAccount.m_amount = 0;
 		
-		System.out.println("Updated amount in account id " + savingsAccount.GetAccountId() + " to " + savingsAccount.GetAmount());
+		System.out.println("Updated amount in account id " + savingsAccount.GetAccountId() + " to " + savingsAccount.UpdateAmount());
 			}
 		}
 	}
+
 

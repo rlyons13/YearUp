@@ -1,0 +1,26 @@
+
+public class Playlist {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		public String m_songs;
+		
+		
+	}
+
+	 
+	public static void InitializePlaylist (int [] inputarray)
+	{
+		
+		
+		
+	}
+
+	public static void DisplayPlaylist (int [] inputarray)
+	{
+		
+		
+	}
+	
+}
