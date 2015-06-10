@@ -1,0 +1,65 @@
+
+public class Loops {
+
+
+	public static void loopFind  (int[] array, int inputValue)
+	{
+			boolean there = false;
+			for (int i = 0; i < array.length; i++)
+			{	
+				if (inputValue == array[i])
+				{
+					there = true;
+					System.out.println("I have found my number in index " + i);
+					
+//					if (inputValue != array [i])
+//					{
+//						System.out.println("I have not found the value you're looking for!");
+//					}
+				}
+//				else
+//				{
+//					System.out.println("I have not found the value you're looking for!");
+//					break;
+//				}
+			}
+			if (there == false)
+			{
+				System.out.println("I have not found the value you're looking for!");
+			}
+	}
+	
+	public static void findLoop (int[] array, int inputValue)
+	{
+		boolean there = false;
+		int numberOfOccurrences = 0;
+		
+		for (int i = 0; i < array.length; i++)
+		{
+			if (inputValue == array[i])
+			{
+				there = true;
+				numberOfOccurrences++;
+			}
+		}
+		if (there == true)
+		{
+			System.out.println("I found your input value " + numberOfOccurences + " times.");
+		}
+	}
+	
+
+	// MAIN METHOD
+	public static void main(String[] args) 
+	{
+//		int [] array1 = {10,-24,33,28,22};
+//		loopFind(array1, 2);
+		
+		int [] array2 = {3,3,3,3};
+		findLoop(array2, 3);
+	}
+}
+	
+	 
+	
+

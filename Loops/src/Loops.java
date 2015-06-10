@@ -2,60 +2,65 @@
 public class Loops {
 
 
-	public static void loopFind  (int array [] , int inputvalue){
-		if (array != null)
-		{
-			if (array.length > 0)
+	public static void loopFind  (int[] array, int inputValue)
+	{
+			boolean lostNumber = false;
+			for (int i = 0; i < array.length; i++)
 			{	
-				for(int i = 22; i < array.length; i++ )
+				if (inputValue == array[i])
 				{
-					System.out.println("I have found my number" + inputvalue);
+					lostNumber = true;
+					System.out.println("I have found my number in index " + i);
 					
-					break;
-					
+//					if (inputValue != array [i])
+//					{
+//						System.out.println("I have not found the value you're looking for!");
+//					}
 				}
+//				else
+//				{
+//					System.out.println("I have not found the value you're looking for!");
+//					break;
+//				}
 			}
-		}
-			
-		
+			if (lostNumber == false)
+			{
+				System.out.println("I have not found the value you're looking for!");
+			}
 	}
 	
-	public static void findLoop (int array [] , int inputValue){
-		if (array != null)
+	public static void findLoop (int[] array, int inputValue)
+	{
+		boolean lostNumber = false;
+		int numberOfOccurrences = 0;
+		
+		for (int i = 0; i < array.length; i++)
 		{
-			if (array.length > 0)
+			if (inputValue == array[i])
 			{
-				
-				for (int i=0; i < array.length; i++ ) 
-				{
-					
-					if (array[i] == inputValue) 
-					{
-						System.out.println("I have found my number" + array[i]);
-					
-						break;
-					}
-				}
+				lostNumber = true;
+				numberOfOccurrences++;
 			}
+		}
+		if (lostNumber == true)
+		{
+			System.out.println("I found your input value " + numberOfOccurrences + " times.");
+		}
+		else
+		{
+			System.out.println("I have not found the value you're looking for!");
 		}
 	}
 	
 
-	
-	
-	
-	
-	
-	
-	
 	// MAIN METHOD
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) 
+	{
 		int [] array1 = {10,-24,33,28,22};
-		int inputvalue = 22;
+		loopFind(array1, 22);
 		
-		
+		int [] array2 = {2,3,3,4,5,3,8,3};
+		findLoop(array2, 3);
 	}
 }
 	
