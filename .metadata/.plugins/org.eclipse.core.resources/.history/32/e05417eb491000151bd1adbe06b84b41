@@ -1,0 +1,6 @@
+
+public class Accountant implements ITaxPayer {
+
+	void FileTaxReturn();
+
+}

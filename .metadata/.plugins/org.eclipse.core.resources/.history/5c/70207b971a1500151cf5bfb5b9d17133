@@ -1,0 +1,14 @@
+
+public class Astronut implements ITaxPayer {
+	
+	private double m_income;
+	
+	private boolean m_donePayingTaxes = false;
+	
+	public double GetIncome () 
+	{
+		return m_income;
+	}
+	
+	
+}
