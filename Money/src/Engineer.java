@@ -24,7 +24,7 @@ public class Engineer implements ITaxPayer {
 		if (m_donePayingTaxes)
 		{
 			double taxes = taxRate * getIncome();
-			double newIncome = getIncome();
+			double newIncome = getIncome()- taxes;
 			setIncome(newIncome);
 			m_donePayingTaxes = true;
 		}
@@ -32,7 +32,9 @@ public class Engineer implements ITaxPayer {
 		{
 			System.out.println ("Taxes for this year are already paid.");
 		}
-	public void FileTaxReturn();
+	}
+	public void FileTaxReturn()
+	{
 		if(m_donePayingTaxes)
 		{
 			System.out.println("Engineer has filed tax return");
