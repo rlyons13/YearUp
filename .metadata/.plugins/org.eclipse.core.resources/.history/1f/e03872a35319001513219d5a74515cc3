@@ -1,0 +1,33 @@
+
+public class ExceptionCentral {
+
+	public static void main(String[] args) 
+	{
+		ExceptionCentral exceptionsCentral = new ExceptionCentral();
+		try
+		{
+			int firstnum=22, secondnum=0;
+			int output= firstnum/secondnum;
+			System.out.println (output+ " is the answer.");
+			
+		}	
+		catch (ArithmeticException ab)
+		{
+			System.out.println ("Arithmetic Exception!!!!");
+		}
+	}
+	int firstException(int firstnum, int secondnum) throws ArithmeticException
+	{
+		int sum = (firstnum/secondnum);
+		return sum;
+	}
+	public void secondException(String HiBuyWhy ) {
+	    if (HiBuyWhy == null) {
+	        throw new NullPointerException("Parameter Type cannot be null");
+	    }
+	    
+	}
+	
+}
+
+

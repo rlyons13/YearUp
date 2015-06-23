@@ -1,0 +1,20 @@
+
+public class ExceptionCentral {
+
+	public static void main(String[] args) 
+	{
+		try
+		{
+			int firstnum=22, secondnum=0;
+			int output= firstnum/secondnum;
+			System.out.println (output+ "this problem is not logical");
+			
+		}	
+		catch (ArithmeticException e)
+		{
+			System.out.println ("Arithmetic Exception!!!!");
+		}
+	}
+}
+
+

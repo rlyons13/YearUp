@@ -16,5 +16,14 @@ public class Doctor extends Worker {
 		
 		Programmer kCalloway = new Programmer();
 		kCalloway.doWork();
+		
+		Surgeon donnap = new Surgeon();
+		donnap.doWork();
+		
+		WebProgrammer dEllis = new WebProgrammer();
+		dEllis.doWork();
 	}
+	
+	
 }
+

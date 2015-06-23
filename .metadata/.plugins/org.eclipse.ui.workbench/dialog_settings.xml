@@ -11,7 +11,7 @@
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="1247" key="dialogHeight"/>
-		<item value="1800" key="dialogWidth"/>
+		<item value="2400" key="dialogWidth"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
