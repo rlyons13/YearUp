@@ -1,0 +1,32 @@
+import java.io.BufferedReader;
+import java.io.FileWriter;
+import java.io.FileReader;
+public class FileIO {
+
+	public static void main(String[] args) 
+	{
+		Read();
+	}
+	public static void Read
+	{
+		FileReader fileReader = null;
+		
+		try
+		{
+			fileReader = new FileReader("C:")
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			String iReadThis = bufferedReader.readLine();
+			System.out.println
+			StringBuilder builder = new StringBuilder();
+		}
+	
+	
+	
+	while(iReadThis=null)
+	{
+		iReadThis.Replace =
+		iReadThis = bufferedReader.readline();
+	}
+	
+	}
+}
