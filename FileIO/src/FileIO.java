@@ -58,10 +58,10 @@ public class FileIO
 		System.out.println("Something went wrong while reading or writing from file");
 		ex.printStackTrace();
 	}
-	catch (NullPointerException nullex)
+	catch (NullPointerException nullab)
 	{
 		System.out.println("You did not supply a valid file path");
-		nullex.printStackTrace();
+		nullab.printStackTrace();
 	}
 }
 	
