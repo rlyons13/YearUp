@@ -1,0 +1,13 @@
+
+public class Final {	
+	
+	public static void main(String[] args) {
+		String[] flowers = {"Daisy", "Rose", "Jasmine", "Lotus", "Daffodil"};
+		
+		for(int i = 0; i < flowers.length; ++i) {
+			System.out.println(flowers[i%2]);
+		}
+	}
+//			=array[i] % 2];
+//			return result;
+}

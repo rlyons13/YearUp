@@ -1,0 +1,9 @@
+
+public class Final {
+	String[] flowers = {"Daisy", "Rose", "Jasmine", "Lotus", "Daffodil"};
+	{
+	String [] result = new String [2];
+	for(int i = 0; i < flowers.length; ++i)
+	=array[i] % 2];
+	return result;
+	}
